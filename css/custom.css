@@ -1,0 +1,423 @@
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+/*basic css design*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+/*basic css design end*/
+/*bottom to top button scrollup start*/
+#scrollUp {
+    text-indent: -999999px;
+    bottom: 10px;
+    right: 20px;
+    padding: 10px 20px;
+    background: url('../img/bootom-to-top.png');
+    background-size: 100% auto;
+    width: 64px;
+    height: 64px;
+    height: 64px;
+    position: fixed;
+}
+
+/*bottom to top button scrollup end*/
+/*header design start*/
+#header {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    width: 100%;
+    height: auto;
+}
+
+#header .logo-social-icon {
+    padding-top: 20px;
+}
+
+#header hr {
+    border-top: 1px solid #fff;
+}
+
+#header .social-icon {
+    padding-top: 20px;
+}
+
+#header .logo-social-icon .brand a {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+#header .logo-social-icon .brand a:hover {
+    color: #fabe12;
+}
+
+#header .logo-social-icon ul li a i {
+    color: #AC9D72;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f4eaea;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#header .logo-social-icon i.i-wifi {
+    transform: rotate(40deg);
+}
+
+#header .logo-social-icon ul li a i:hover {
+    background-color: #AB9C71;
+    color: #fff;
+}
+
+/*top header design end*/
+/* Navigation design start*/
+#header .navbar-toggler {
+    font-size: 18px;
+    padding: 15px 60px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #fed136;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#header .navbar-nav .nav-item .nav-link {
+    letter-spacing: 0.2px;
+    color: #fff;
+    padding: 0 1.5em 1em 0 !important;
+    margin-left: -12px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header .navbar-nav .nav-item .nav-link.active,
+#header .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136 !important;
+}
+
+#header .form-inline .form-control {
+    width: 120px;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    top: 5px;
+    position: absolute;
+}
+
+#header .btn-nav {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin-left: 90px;
+    color: #fff;
+    font-size: 18px;
+    top: 6px;
+}
+
+/* Navigation design end */
+/*header area start*/
+#header .carousel-inner {
+    padding: 110px 0;
+}
+
+#header .carousel-item h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header .carousel-item h2 span {
+    color: #7edb7e;
+    padding: 10px 0;
+}
+
+#header .carousel-item p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 0;
+}
+
+#header .carousel-item .btn-slider {
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#header .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#header .carousel-indicators li:hover {
+    transform: scale(1.5);
+}
+
+#header .carousel-indicators li.active {
+    transform: scale(1.3);
+}
+
+#header .carousel-control-next-icon i {
+    padding-left: 3px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #3E3828;
+}
+
+#header .carousel-control-next-icon {
+    background: none;
+}
+
+#header .carousel-control-prev-icon i {
+    font-size: 40px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #3E3828;
+    padding-right: 3px;
+}
+
+#header .carousel-control-prev-icon {
+    background: none;
+}
+
+/*header area end*/
+
+#services {
+    padding: 60px 0;
+}
+
+#services .services-content h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+    color: #7e6b6b;
+}
+
+#services .services-content p {
+    font-size: 15px;
+    padding: 10px 0 20px 0;
+    color: #b9b7b7;
+}
+
+#services hr {
+    color:
+}
+
+#services .services-iterm {
+    padding-top: 30px;
+}
+
+#services .services-iterm i {
+    font-size: 80px;
+    color: #b9b7b7;
+}
+
+#services .services-iterm h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 25px 0 12px;
+    color: #8b7b7b;
+}
+
+#services .services-iterm p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #b9b7b7;
+}
+
+#services .services-iterm a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #28d370;
+}
+
+/*services area end*/
+/*team area start*/
+
+#work {
+    padding: 60px 0 200px 0;
+    background: #EFEFEF;
+}
+
+#work .work-content h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+    color: #7e6b6b;
+}
+
+#work .work-content p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #7e7272;
+    padding: 15px;
+}
+
+#work .work-content {}
+
+#work-img {
+    position: relative;
+    bottom: 155px;
+}
+
+#work-img .fast-img {
+    position: relative;
+    bottom: 15px;
+}
+
+#work-img .img-hover h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #7e6b6b;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+#work-img hr {}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+#work-img .img-hover {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Make the image to responsive */
+#work-img .image {
+    width: 100%;
+    height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+#work-img .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    /*  background-color: red;*/
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+#work-img .img-hover:hover .overlay {
+    opacity: 1;
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+#work-img .icon {
+    color: white;
+    background: black;
+    font-size: 45px;
+    width: 100px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* When you move the mouse over the icon, change color */
+#work-img .fa-user:hover {
+    color: #eee;
+}
+
+#work-img .work-img-content h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 35px 0 12px;
+    color: #8b7b7b;
+}
+
+#work-img .work-img-content p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #7e7272;
+    padding: 15px;
+}
+
+#work-img .work-img-content .work-btn {
+    padding: 12px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #39c939;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#work-img .work-img-content .work-btn:hover {
+    background: none;
+    color: #39c939;
+    border: 2px solid;
+}
+
+/*footer-area start*/
+#footer-area {
+    padding: 20px 0;
+}
+
+#footer-area .footer-content p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#footer-area .footer-content {}
+
+/*footer-area end*/
